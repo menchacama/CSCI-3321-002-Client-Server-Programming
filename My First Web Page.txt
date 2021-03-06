@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head><title>Page Title</title>
+<style>
+body{
+background-color: #61249d;
+color: #ffffff;
+}
+.button {
+  background-color: #4CAF50;
+  border: red;
+  color: white;
+  padding: 15px 32px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+<h2>"Welcome to CSCI3321 Client Server Web Programing"</h2>
+<img src="http://www.sfasu.edu/themes/custom/sfa/css/images/logo.png"  alt="SFA Logo" width = "100" height ="100">
+<p>This course:</p>
+<ul>
+<li>Is projecy based</li>
+<li>Consists of multiple projects using HTML, CSS, JavaScript, ASP.NET/C#, and Microsoft SQL Server</li>
+<li>May require you to complete reading assignments and watch videos before class</li>
+<li>Will be challenging if you dont work hard</li>
+<li>Will give you enough Knowledge and tools to help you to become an entry-level web developer</li>
+</ul>
+<p>You can visit the class website in <a href="http://mysfa.sfasu.edu">D2L</a> for more information</p>
+<ul>
+<li>Anthony Menchaca</li>
+<li>Senior</li>
+<li>College of Fine Arts</li>
+</ul>
+<button class="button">I am an HTML button</button>
+<input type="button" class="button" value="I am an input button">
+</body>
+</html>

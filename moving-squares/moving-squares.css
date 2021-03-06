@@ -1,0 +1,42 @@
+div.even
+{
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: white;
+    transition: transform 1400ms ease-in-out
+}
+div.odd
+{
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: white;
+    transition: transform 1400ms ease-in-out;
+}
+
+.container
+{
+    border-style: solid;
+    border-color: red;
+    height: 450px;
+    width: 800px;
+}
+.container:hover .odd
+{
+transform: rotate(-1080deg) translate(250px) scale(.75);
+}
+.container:hover .even
+{
+transform: rotate(1080deg) translate(-250px) scale(2);
+}
